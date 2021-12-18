@@ -1,18 +1,21 @@
 {
   "env": {
     "browser": true,
-    "es2017": true,
-    "es2015": true,
-    "es2021": true
+    "es2020": true
   },
   "extends": ["plugin:react/recommended", "standard"],
   "parserOptions": {
     "ecmaFeatures": {
-      "jsx": true
+      "jsx": true,
+      "js": true
     },
     "ecmaVersion": 11,
     "sourceType": "module"
   },
   "plugins": ["react"],
-  "rules": {}
+  "rules": {
+    "semi": [1, "always"],
+    "generator-star-spacing": ["error", "after"],
+    "space-before-function-paren": ["error", "never"]
+  }
 }
