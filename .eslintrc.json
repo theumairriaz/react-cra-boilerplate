@@ -17,6 +17,7 @@
     "semi": [1, "always"],
     "generator-star-spacing": ["error", "after"],
     "space-before-function-paren": ["error", "never"],
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "allowInParentheses": 0
   }
 }
